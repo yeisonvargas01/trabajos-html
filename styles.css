@@ -1,0 +1,150 @@
+.subtitulo {
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: #FF6B6B; 
+    padding: 10px;
+    color: black; 
+}
+
+.titulo {
+    background-color: #87CEEB; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+    color: black; 
+}
+
+.cuerpo {
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(135deg, rgba(0, 247, 255, 0.7), rgba(61, 61, 212, 0.7));
+    font-size: larger;
+    color: #333;
+    padding: 5px;
+}
+
+.fondo {
+    background-color: #F5F5F5; 
+    
+    border-radius: 0 0 10px 10px;
+}
+
+.inputs {
+    width: 60%;
+    padding: 5px;
+    margin-bottom: 7px;
+    border: 2px solid #FFA500; 
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #87CEEB; 
+    color: white;
+    border: 2px solid #FFA500; 
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #FFA500; 
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    background-color: rgba(0, 247, 255, 0.7);
+    border-collapse: collapse;
+}
+
+td {
+    width: 10%; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body.cuerpo {
+    background-image: url('requisitos-cod-mobile.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #F0F8FF; 
+}
+
+
+
+form {
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+
+.fondo {
+    padding: 10px;
+    margin-bottom: 10px; 
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center; 
+}
+
+label {
+    flex: 1; 
+}
+
+.inputs {
+    flex: 2; 
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #ccc; 
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+input[type="submit"] {
+    background-color: #007BFF; 
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+}
+
+
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+textarea {
+    display: block;
+    margin: 10 auto;
+}
+
+
+.titulo, .subtitulo {
+    text-align: center;
+    padding: 20px;
+    background-color: #007BFF; 
+    color: white; 
+    margin-bottom: 20px;
+}
+
+
+hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
