@@ -148,3 +148,19 @@ hr {
     border: 1px solid #ccc;
     margin: 20px 0;
 }
+
+
+label[for="sexo"], label[for="nacimiento"], label[for="pass"] {
+    display: block;
+    text-align: left; 
+    margin-bottom: 5px; 
+}
+
+#sexo, #nacimiento, #pass {
+    width: 85%; 
+    padding: 5px;
+    border: 2px solid #FFA500;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px; 
+}
